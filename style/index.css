@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif; /* Fuente legible por defecto */
+    margin: 20px;
+    margin: 0%;
+    background-color: #f0f4f8; /* Un gris claro que proporciona buen contraste */
+    color: #333; /* Color de texto oscuro para buena legibilidad */
+}
+
+/* header*/
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-content input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 1em;
+}
+.header-content select {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 1em;
+}
+.header-content button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+.header-content button:hover {
+    background-color: #004494;
+} /*fin header*/
+
+.section-1-productos {
+    padding: 20px;
+    height: 100%;
+}
+.section-1-productos h1 {
+    text-align: center;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los productos */
+    justify-content: center; /* Centra los productos horizontalmente */
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px; 
+    height: 300px;/* Ancho fijo para los productos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product h2 {
+    font-size: 12px;
+    margin: 10px 0;
+    text-align: center;
+}
+.product button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+.product button:hover {
+    background-color: #0056b3;
+}
